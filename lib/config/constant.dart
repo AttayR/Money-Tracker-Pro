@@ -1,0 +1,1 @@
+String appName = 'Manage Loan';
