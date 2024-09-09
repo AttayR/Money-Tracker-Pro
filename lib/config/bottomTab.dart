@@ -4,9 +4,7 @@ import 'package:manage_loan/styles/colors.dart';
 
 class BottomTabNavigator extends StatefulWidget {
   final Widget child;
-
-  const BottomTabNavigator({Key? key, required this.child}) : super(key: key);
-
+  const BottomTabNavigator({super.key, required this.child});
   @override
   _BottomTabNavigatorState createState() => _BottomTabNavigatorState();
 }
